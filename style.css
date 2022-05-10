@@ -56,7 +56,12 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    padding-right: 30%;
+  }
+  #small {
+    padding-right: 33%;
+  }
+  #medium {
+    padding-right: 66%;
   }
 }
 
@@ -95,6 +100,11 @@ body {
     margin-bottom: 0;
     padding: 20px;
     width: 33%;
+  }
+
+  #small,
+  #medium {
+    padding-right: 0px;
   }
 }
 
